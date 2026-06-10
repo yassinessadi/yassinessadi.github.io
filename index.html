@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyStream — Your IPTV player for M3U, Xtream &amp; direct streams</title>
+  <meta name="description" content="SkyStream is a fast IPTV player. Load M3U playlists, Xtream Codes or any direct stream URL, check stream health with live latency pings, and browse 12,000+ channels." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SkyStream — IPTV player" />
+  <meta property="og:description" content="Load M3U, Xtream or direct streams. Check stream health. Browse 12,000+ channels." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Nav ===== -->
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="SkyStream home">
+        <span class="glyph" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" fill="#3b9eff"/></svg>
+        </span>
+        SkyStream
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#formats">Formats</a>
+        <a href="#screens">Screens</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.essadi.skystream">Get the app</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-copy">
+          <span class="eyebrow">IPTV player · Android</span>
+          <h1>Any playlist.<br><span class="grad">Every stream.</span><br>One player.</h1>
+          <p class="lede">Paste an M3U link, your Xtream login, or a single stream URL — and watch. SkyStream loads it, sorts it, and tells you which channels are actually online.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.essadi.skystream">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 3l14 9-14 9V3z" fill="#02101f"/></svg>
+              <span><small>Get it on</small><strong>Google Play</strong></span>
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2A10 10 0 002 12a10 10 0 006.8 9.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5a3.9 3.9 0 011-2.7 3.6 3.6 0 01.1-2.7s.8-.3 2.7 1a9.3 9.3 0 015 0c1.9-1.3 2.7-1 2.7-1a3.6 3.6 0 01.1 2.7 3.9 3.9 0 011 2.7c0 3.9-2.3 4.8-4.6 5 .4.3.7.9.7 1.8v2.6c0 .3.2.6.7.5A10 10 0 0022 12 10 10 0 0012 2z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="stat"><div class="n">12,300+</div><div class="l">channels loadable</div></div>
+            <div class="stat"><div class="n">4</div><div class="l">stream formats</div></div>
+            <div class="stat"><div class="n"><span class="dot">●</span> Live</div><div class="l">health checks</div></div>
+          </div>
+        </div>
+
+        <div class="hero-stage">
+          <div class="pulse" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="float-chip one"><span class="live"></span> 21 channels online</div>
+          <div class="float-chip two">1Almere TV · <span class="ms">250&nbsp;ms</span></div>
+          <div class="device">
+            <img src="assets/screen-health.jpg" alt="SkyStream Stream Health screen showing channels with live latency in milliseconds and online status" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Features ===== -->
+    <section class="features" id="features">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">What it does</span>
+          <h2>Built for the way you actually watch</h2>
+          <p>Three ways in, one clean library out — plus the tools to keep it tidy when sources go stale.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="card wide">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M10 13a5 5 0 007.5.5l3-3a5 5 0 00-7-7l-1.5 1.5"/><path d="M14 11a5 5 0 00-7.5-.5l-3 3a5 5 0 007 7L12 19"/></svg></div>
+            <h3>Three ways to add a source</h3>
+            <p>Drop in a direct M3U playlist URL, sign in with Xtream Codes (server, username, password), or paste a single stream link to watch instantly — no playlist required.</p>
+          </article>
+
+          <article class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a9 9 0 0114 0"/><path d="M8.5 16a4.5 4.5 0 017 0"/><circle cx="12" cy="19" r="1" fill="#6fc0ff" stroke="none"/></svg></div>
+            <h3>Stream Health checker</h3>
+            <p>Test every channel at once and see real latency in milliseconds, with online and offline flagged at a glance.</p>
+          </article>
+
+          <article class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+            <h3>Search 12,000+ channels</h3>
+            <p>Instant search and category filters — Favorites, Shop, News, General and more — across your whole loaded library.</p>
+          </article>
+
+          <article class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5l-7.5-7a4.5 4.5 0 016.5-6l1 1 1-1a4.5 4.5 0 016.5 6l-7.5 7z"/></svg></div>
+            <h3>Favorites &amp; history</h3>
+            <p>Star the channels you keep coming back to and pick up right where you left off with continue watching.</p>
+          </article>
+
+          <article class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M3 7l9-4 9 4"/><path d="M3 7v10l9 4 9-4V7"/></svg></div>
+            <h3>Sources that stay put</h3>
+            <p>Working sources are saved and verified, so a playlist you trusted last week is one tap away today.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Formats ===== -->
+    <section class="formats" id="formats">
+      <div class="wrap">
+        <div class="format-panel">
+          <h3>Stream formats it speaks</h3>
+          <p class="sub">Paste any of these and SkyStream plays it directly.</p>
+          <div class="format-list">
+            <span class="fmt ok"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg> HLS <span class="tag">.m3u8</span></span>
+            <span class="fmt ok"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg> MPEG-TS <span class="tag">.ts</span></span>
+            <span class="fmt ok"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg> MP4 <span class="tag">.mp4</span></span>
+            <span class="fmt ok"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg> HTTP <span class="tag">direct streams</span></span>
+            <span class="fmt no"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg> RTMP <span class="tag">not supported</span></span>
+            <span class="fmt no"><svg class="mk" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg> RTSP <span class="tag">not supported</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Screenshots ===== -->
+    <section class="gallery" id="screens">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">A look inside</span>
+          <h2>Clean in the dark, clean in the light</h2>
+          <p>Every screen is built to get you to a working stream fast.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot"><img src="assets/screen-add-source.jpg" alt="Add your IPTV source via M3U URL" loading="lazy"><figcaption>Add an M3U source</figcaption></figure>
+          <figure class="shot"><img src="assets/screen-xtream.jpg" alt="Connect with Xtream Codes credentials" loading="lazy"><figcaption>Xtream Codes login</figcaption></figure>
+          <figure class="shot"><img src="assets/screen-watch.jpg" alt="Paste any stream link to watch directly" loading="lazy"><figcaption>Watch a stream URL</figcaption></figure>
+          <figure class="shot"><img src="assets/screen-channels.jpg" alt="Browse and search the channel library" loading="lazy"><figcaption>Channel library</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-band">
+      <div class="wrap">
+        <div class="cta-inner">
+          <h2>Bring your own playlist.</h2>
+          <p>SkyStream is a player — you supply the source. Free on Google Play.</p>
+          <a class="btn" href="https://play.google.com/store/apps/details?id=com.essadi.skystream">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3l14 9-14 9V3z"/></svg>
+            Download on Google Play
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a class="brand" href="#top">
+            <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" fill="#3b9eff"/></svg></span>
+            SkyStream
+          </a>
+          <p>An IPTV player for Android. SkyStream provides no channels or content — you bring your own M3U, Xtream or stream URL.</p>
+        </div>
+        <div class="foot-cols">
+          <div class="foot-col">
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#formats">Formats</a>
+            <a href="#screens">Screenshots</a>
+            <a href="https://play.google.com/store/apps/details?id=com.essadi.skystream">Google Play</a>
+          </div>
+          <div class="foot-col">
+            <h4>Legal</h4>
+            <a href="privacy-policy.html">Privacy policy</a>
+            <a href="app-ads.txt">app-ads.txt</a>
+          </div>
+        </div>
+      </div>
+      <div class="foot-base">
+        <span>© 2026 SkyStream. All rights reserved.</span>
+        <span>Made by essadi</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
