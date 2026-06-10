@@ -1,17 +1,17 @@
 # app-ads.txt for SkyStream (com.essadi.skystream)
 # Spec: https://iabtechlab.com/ads-txt/
 #
-# HOW TO FINISH THIS FILE
-# 1. Replace pub-0000000000000000 below with YOUR real AdMob publisher ID.
-#    Find it in AdMob > Settings > Account information ("Publisher ID", starts with "pub-").
-# 2. Keep the line for google.com exactly as shown (f08c47fec0942fa0 is Google's
-#    certification ID and is the SAME for every publisher).
-# 3. If you also use other ad networks (Unity, AppLovin, ironSource, Meta...),
-#    paste the app-ads.txt lines THEY give you below, one per line.
-# 4. Make sure your Google Play listing's "Website" field points to THIS domain
-#    (e.g. https://YOURNAME.github.io) so Google can crawl this file.
+# Your AdMob App ID is: ca-app-pub-9500961814964232~6905835644
+# In app-ads.txt you only use the PUBLISHER ID part: pub-9500961814964232
+# (the "~6905835644" app-specific part goes in your app code, not here).
 #
-# Format of each line:  <ad-system domain>, <publisher id>, <DIRECT|RESELLER>, <certification id>
-
+# REMINDER: Set your Google Play listing's "Website" field to THIS domain
+# (e.g. https://yassinessadi.github.io/skystream/) so Google can crawl this file.
+# It can take Google a few days to verify after the listing is updated.
+#
+# If you add other ad networks (Unity, AppLovin, ironSource, Meta...),
+# paste the app-ads.txt lines THEY give you below, one per line.
+#
+# Format:  <ad-system domain>, <publisher id>, <DIRECT|RESELLER>, <certification id>
 
 google.com, pub-9500961814964232, DIRECT, f08c47fec0942fa0
